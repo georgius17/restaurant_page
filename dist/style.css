@@ -1,0 +1,191 @@
+body {
+  font-family: 'Shadows Into Light';
+  background-image: url(img/texture1.jpg);
+  background-size: cover;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  
+  width:auto;
+  height: 3vw;
+  border-radius: 10px;
+  padding-right: 18vw;
+  padding-left: 18vw;
+}
+
+li {
+  
+  text-align: center;
+  margin: 0 auto;
+ display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li a {
+  width: 7vw;
+  height:3vw;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+nav {
+  width:auto;
+  margin:0 auto;
+  background-color: hsla(54, 87%, 88%, 1);
+  
+  border:2px solid black;
+  border-radius: 10px;
+}
+
+#logo {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  width: 13vw;
+}
+
+img.images {
+  max-width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-top : 2px;
+}
+
+.home{
+  border: 1px solid white;
+  height: 28vw;
+}
+
+.home:hover {
+ 
+  border: 2px solid black;
+}
+
+#text1 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 1.3vw;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  height: 15vw;
+  padding: 20px;
+  text-align: center;
+}
+
+#text2 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 15%;
+  height: 22vw;
+  padding: 20px;
+  text-align: center;
+}
+
+#home1{
+  border-radius: 10px 0px 0px 10px;
+}
+#home2{
+  border-radius: 0px 10px 10px 0px;
+}
+
+#form1 {
+  border: 3px solid black;
+  border-radius: 15px;
+  position: absolute;
+  top: 39.5%;
+  left: 52%;
+  width: 26%;
+  height: 22vw;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+#img4 {
+  margin-right: 1vw;
+  margin-top: 3.5vw;
+  width: 30vw;
+  height: 24vw;
+  float: right;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+input {
+  font-size: 20px;
+  display: block;
+  margin: 0px auto;
+  font-family: 'Shadows Into Light';
+}
+
+#submit {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 7vw;
+  height: 2vw;
+  font-weight: bold;
+  background-color: hsla(63, 32%, 38%, 0.18);
+  
+}
+
+h4{
+  margin:0 auto;
+  padding: 0;
+}
+
+table {
+  margin:20px auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 30px;
+  width: 35vw;
+  
+}
+
+tr.dishDescription {
+  font-size: 20px;
+}
